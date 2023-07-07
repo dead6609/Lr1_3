@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="Create_Task_Border" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>401</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <widget class="QCalendarWidget" name="Calendar_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>391</width>
+      <height>421</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Time_text">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Task_text">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>500</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Create_Task_button">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>550</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Добавить запись</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="Task_Book_Border" native="true">
+   <property name="geometry">
+    <rect>
+     <x>399</x>
+     <y>-1</y>
+     <width>401</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <widget class="QTextEdit" name="Task_Book">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>9</y>
+      <width>381</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
